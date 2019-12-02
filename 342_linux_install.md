@@ -1,39 +1,38 @@
 
-### 1.新建ceshi1目录文件夹,将c.box文件复制到ceshi1文件目录下
+### 1.使用VMware创建虚拟机，[文档地址](https://www.cnblogs.com/bianxcArticle/p/9332842.html)
 ```markdown
-D:\Linux_env\ceshi1
-D:\Linux_env\ceshi1\c.box
+https://www.cnblogs.com/bianxcArticle/p/9332842.html
 ```
 
-### 2.cmd到`D:\Linux_env\ceshi1`目录下，运行如下命令后生成配置文件
+### 2.Linux打开终端
 ```markdown
-vagrant box add ceshi1 c.box
-
-安装成功提示：
-==> box: Adding box 'ceshi1' (v0) for provider:
-    box: Downloading: file://D:/Linux_env/ceshi1/c.box
-    box: Progress: 100% (Rate: 512M/s, Estimated time remaining: --:--:--)
-==> box: Successfully added box 'ceshi1' (v0) for 'virtualbox'!
+Ctrl+Alt+T
 ```
 
-### 3.步骤2执行成功后，初始化配置文件
+### 3.输入ifconfig查看ip信息`192.168.184.128`
 ```markdown
-vagrant init
+ceshi1@ubuntu:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:0c:29:92:5c:b1  
+          inet addr:192.168.184.128  Bcast:192.168.184.255  Mask:255.255.255.0
+          inet6 addr: fe80::20c:29ff:fe92:5cb1/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1654 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1437 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1485547 (1.4 MB)  TX bytes:162465 (162.4 KB)
+          Interrupt:19 Base address:0x2000 
 
-成功提示：
-A `Vagrantfile` has been placed in this directory. You are now
-ready to `vagrant up` your first virtual environment! Please read
-the comments in the Vagrantfile as well as documentation on
-`vagrantup.com` for more information on using Vagrant.
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:118 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:118 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:9637 (9.6 KB)  TX bytes:9637 (9.6 KB)
 ```
 
-### 4.更改生成后，Vagrantfile配置文件`vm.box名字为ceshi1`
+### 4.xshell链接Linux虚拟机
 ```markdown
-config.vm.box = "ceshi1"
+https://blog.csdn.net/fengkuagn123/article/details/79114867
 ```
-
-### 5.启动ceshi1, `VirtualBox虚拟机`
-*   重新打开一个新的cmd窗口，cd到：`D:\Linux_env\ceshi1`, 输入以下命令
-```markdown
-vagrant up
-``` 
