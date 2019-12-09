@@ -12,4 +12,6 @@ python linux
         346.【linux基础】Linux目录
     347.md  2019/12/08 23:41
         347.Linux必须会的知识点
+    348.md  2019/12/09 23:27
+        348.【linux基础】Linux帮助信息
 ```
