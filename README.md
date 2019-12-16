@@ -26,4 +26,6 @@ python linux
         353.【linux基础】grep命令
     354.md  2019/12/15 22:33
         354.【linux基础】查找文件+copy命令
+    355.md  2019/12/16 23:48
+        355.【linux基础】mv命令
 ```
