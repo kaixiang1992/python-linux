@@ -30,4 +30,6 @@ python linux
         355.【linux基础】mv命令
     356.md  2019/12/21 20:37
         356.【linux基础】压缩和解压
+    357.md  2019/12/24 23:16
+        357.【linux基础】查找命令(which,whereis,locate)
 ```
