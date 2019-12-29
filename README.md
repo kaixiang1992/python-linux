@@ -32,4 +32,6 @@ python linux
         356.【linux基础】压缩和解压
     357.md  2019/12/24 23:16
         357.【linux基础】查找命令(which,whereis,locate)
+    358.md  2019/12/29 21:12
+        358.【linux基础】文件权限
 ```
