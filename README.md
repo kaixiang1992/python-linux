@@ -34,4 +34,6 @@ python linux
         357.【linux基础】查找命令(which,whereis,locate)
     358.md  2019/12/29 21:12
         358.【linux基础】文件权限
+    359.md  2019/12/30 22:54
+        359.【linux基础】用户管理(who,whoami,exit)
 ```
