@@ -36,4 +36,8 @@ python linux
         358.【linux基础】文件权限
     359.md  2019/12/30 22:54
         359.【linux基础】用户管理(who,whoami,exit)
+    360.md  2020/01/01 21:25
+        360.【linux基础】创建用户(useradd)
+    361.md  2020/01/01 22:48
+        361.【linux基础】用户管理命令(passwd,su,userdel)
 ```
