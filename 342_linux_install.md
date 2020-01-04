@@ -36,3 +36,26 @@ lo        Link encap:Local Loopback
 ```markdown
 https://blog.csdn.net/fengkuagn123/article/details/79114867
 ```
+
+### ubuntu系统： xshell登录失败或22端口链接失败错误提示：
+* 1.关闭防火墙， 执行：`sudo ufw disable`
+```shell script
+ceshi3@ubuntu:~$ sudo ufw disable
+[sudo] password for ceshi3: ceshi3
+Firewall stopped and disabled on system startup
+```
+* 2.安装OpenSSH，执行`sudo apt-get install openssh-server openssh-client`命令
+```shell script
+ceshi3@ubuntu:~$ sudo apt-get install openssh-server openssh-client
+....
+```
+* 3.安装成功后，执行`netstat -tnl`命令，查看22端口是否开通。
+```shell script
+ceshi3@ubuntu:~$ netstat -tnl
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN 
+```
