@@ -68,4 +68,6 @@ python linux
         374.【linux基础】VIM基本操作
     375.md 2020/01/05 17:39
         375.【linux基础】shell脚本(shell基本元素，为什么使用shell)
+    376.md 2020/01/06 22:25
+        376.【linux基础】shell脚本(bash中的特殊符号)
 ```
