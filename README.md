@@ -94,4 +94,6 @@ python linux
         387.【linux基础】shell(for循环)
     388.md 2020/01/12 18:56 [常用功能]
         388.【linux基础】shell(function函数)
+    389.md 2020/01/16 22:56 [重点视频---重点]
+        389.【linux基础】shell(排序统计相关命令)linux
 ```
