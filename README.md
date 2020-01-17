@@ -96,4 +96,8 @@ python linux
         388.【linux基础】shell(function函数)
     389.md 2020/01/16 22:56 [重点视频---重点]
         389.【linux基础】shell(排序统计相关命令)linux
+    390.md 2020/01/17 20:56
+        390.【linux基础】shell(正则表达式介绍)
+    391.md 2020/01/17 21:40
+        391.【linux基础】shell(正则表达式grep)
 ```
