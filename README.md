@@ -111,3 +111,15 @@ python linux
     * 397.【linux基础】iptables(例子2)
 * 398.md 2020/01/23 23:17 `[iptables---重点]`
     * 398.【linux基础】iptables(我可以ping别人, 别人不能ping我)
+
+### Linux基础实战篇
+* 403.md`(有图片)` 2020/01/24 13:39 `[lnmp---实战---重点]`
+    * 403.【linux基础】lnmp(nginx安装)
+* 404.md 2020/01/24 16:30 `[lnmp---实战]`
+    * 404.【linux基础】lnmp(nginx进程理解)
+* 405.md`(有图片)` 2020/01/24 17:01 `[lnmp---实战---重点]`
+    * 405.【linux基础】lnmp(nginx配置文件和日志分割)
+* 406.md 2020/01/25 14:34 `[lnmp---实战---重点]`
+    * 406.【linux基础】lnmp(mysql安装和基本操作)
+* 407.md`(有图片)` 2020/01/26 13:54 `[lnmp---实战---重点]`
+    * 407. 【linux基础】lnmp(HDWIKI搭建公司的知识管) `Centos`
