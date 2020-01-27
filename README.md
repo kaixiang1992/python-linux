@@ -123,3 +123,4 @@ python linux
     * 406.【linux基础】lnmp(mysql安装和基本操作)
 * 407.md`(有图片)` 2020/01/26 13:54 `[lnmp---实战---重点]`
     * 407. 【linux基础】lnmp(HDWIKI搭建公司的知识管) `Centos`
+    * 未成功 `HDwiki已停服`
